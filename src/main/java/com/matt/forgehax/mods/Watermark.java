@@ -97,7 +97,7 @@ public class Watermark extends HudMod {
 	  int clr;
 	  if (rainbow.get()) clr = color;
 	  else clr = Color.of(red.get(), green.get(), blue.get(), alpha.get()).toBuffer();
-      SurfaceHelper.drawTextAlign("\u16A0\u16A8\u16BE\u16CF\u16A8\u16D2\u16DF\u16CA\u16EB\u16B2\u16DF", getPosX(0), getPosY(0),
+      SurfaceHelper.drawTextAlign("ForgeHax", getPosX(0), getPosY(0),
 	  							clr, scale.get(), true, align);
   }
 }
